@@ -3,7 +3,7 @@ package com.example.coolweather.android.db;
 public class County {
     private int id;
     private int weatherId;
-    private String countryName;
+    private String countyName;
     private int cityId;
 
     public int getId()
@@ -26,14 +26,14 @@ public class County {
         this.weatherId = weatherId;
     }
 
-    public String getCountryName()
+    public String getCountyName()
     {
-        return countryName;
+        return countyName;
     }
 
-    public void setCountryName(String countryName)
+    public void setCountyName(String countyName)
     {
-        this.countryName = countryName;
+        this.countyName = countyName;
     }
 
     public int getCityId()
